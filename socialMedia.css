@@ -1,0 +1,31 @@
+#socialMedia{
+    display:inline-block;
+    position:fixed;
+    z-index:2;
+    top:65px;
+}
+
+.socialMediaList{
+    margin:0;    
+    padding:0;
+}
+
+.socialMediaList img{
+    width:3.4em;
+    border-radius:50%;
+    margin:.3em;
+}
+
+ul{
+    list-style-type:none;
+}
+
+@media(max-width:650px){
+    #socialMedia{
+        top:74%;
+    }
+    
+    .socialMediaList img{
+        width:2.5em;
+    }
+}
