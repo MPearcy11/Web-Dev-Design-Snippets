@@ -1,0 +1,22 @@
+.contactForm{
+    width:80%;   
+    text-align:right;
+    font-size:large;
+}
+
+.contactForm input, .contactForm textarea{
+    background:#445;
+    color:white;
+    padding:.2em;
+    margin:.3em auto;
+}
+
+#contactHead{
+    background-color:#378;
+    color:white;
+}
+
+.alignCenter{
+	text-align:center;
+}
+
