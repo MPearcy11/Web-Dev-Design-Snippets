@@ -1,0 +1,27 @@
+
+/*  HTML markup is an <a> tag with the class of "ghost" */
+
+.ghost{
+    background:rgba(0,0,0,0);
+    border:1px solid white;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+    transition:.2s;
+    padding:.5em .8em;
+    display:inline-block;
+    margin-top:3em;
+    font-size:large;
+    letter-spacing:0.25em;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-style:normal;
+}
+
+.ghost:hover{
+    color:grey;
+    background:white;
+}
+
+.ghost:focus{
+    color:white;
+}
